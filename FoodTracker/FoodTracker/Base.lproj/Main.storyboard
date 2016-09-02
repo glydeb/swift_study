@@ -50,6 +50,11 @@
                             <constraint firstItem="r5g-UW-OlX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="gcV-YN-QeW"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="mealNameLabel" destination="3rU-wL-Y3d" id="65C-jD-hzD"/>
+                        <outlet property="nameTextField" destination="P5a-qQ-hAp" id="hHD-pj-Lg1"/>
+                        <outlet property="setDefaultLabelText" destination="HfJ-9c-73D" id="HcB-7h-dUh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
