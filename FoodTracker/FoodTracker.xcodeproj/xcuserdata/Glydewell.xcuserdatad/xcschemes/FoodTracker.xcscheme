@@ -14,7 +14,11 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+<<<<<<< HEAD
                BlueprintIdentifier = "B8D0F3B21D7CB638004C6E89"
+=======
+               BlueprintIdentifier = "B8734DE31D73BC13001BE510"
+>>>>>>> cdab3d498a9405861f08cd478abe7c8526bf8a07
                BuildableName = "FoodTracker.app"
                BlueprintName = "FoodTracker"
                ReferencedContainer = "container:FoodTracker.xcodeproj">
@@ -32,7 +36,11 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
+<<<<<<< HEAD
                BlueprintIdentifier = "B8D0F3C61D7CB638004C6E89"
+=======
+               BlueprintIdentifier = "B8734DF71D73BC14001BE510"
+>>>>>>> cdab3d498a9405861f08cd478abe7c8526bf8a07
                BuildableName = "FoodTrackerTests.xctest"
                BlueprintName = "FoodTrackerTests"
                ReferencedContainer = "container:FoodTracker.xcodeproj">
@@ -42,7 +50,11 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
+<<<<<<< HEAD
             BlueprintIdentifier = "B8D0F3B21D7CB638004C6E89"
+=======
+            BlueprintIdentifier = "B8734DE31D73BC13001BE510"
+>>>>>>> cdab3d498a9405861f08cd478abe7c8526bf8a07
             BuildableName = "FoodTracker.app"
             BlueprintName = "FoodTracker"
             ReferencedContainer = "container:FoodTracker.xcodeproj">
@@ -65,7 +77,11 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
+<<<<<<< HEAD
             BlueprintIdentifier = "B8D0F3B21D7CB638004C6E89"
+=======
+            BlueprintIdentifier = "B8734DE31D73BC13001BE510"
+>>>>>>> cdab3d498a9405861f08cd478abe7c8526bf8a07
             BuildableName = "FoodTracker.app"
             BlueprintName = "FoodTracker"
             ReferencedContainer = "container:FoodTracker.xcodeproj">
@@ -84,7 +100,11 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
+<<<<<<< HEAD
             BlueprintIdentifier = "B8D0F3B21D7CB638004C6E89"
+=======
+            BlueprintIdentifier = "B8734DE31D73BC13001BE510"
+>>>>>>> cdab3d498a9405861f08cd478abe7c8526bf8a07
             BuildableName = "FoodTracker.app"
             BlueprintName = "FoodTracker"
             ReferencedContainer = "container:FoodTracker.xcodeproj">
