@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B833A3791D977BAD0099A4E4 /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B833A3781D977BAD0099A4E4 /* MealTableViewCell.swift */; };
 		B84C50DF1D90D7DF0008D94A /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84C50DE1D90D7DF0008D94A /* Meal.swift */; };
 		B84C50E01D90D7DF0008D94A /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84C50DE1D90D7DF0008D94A /* Meal.swift */; };
 		B8D0F3B71D7CB638004C6E89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D0F3B61D7CB638004C6E89 /* AppDelegate.swift */; };
@@ -29,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B833A3781D977BAD0099A4E4 /* MealTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
 		B84C50DE1D90D7DF0008D94A /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		B8D0F3B31D7CB638004C6E89 /* FoodTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8D0F3B61D7CB638004C6E89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 				B8D0F3B81D7CB638004C6E89 /* ViewController.swift */,
 				B8D0F3D61D7FC08B004C6E89 /* RatingControl.swift */,
 				B8D0F3BA1D7CB638004C6E89 /* Main.storyboard */,
+				B833A3781D977BAD0099A4E4 /* MealTableViewCell.swift */,
 				B8D0F3BD1D7CB638004C6E89 /* Assets.xcassets */,
 				B8D0F3BF1D7CB638004C6E89 /* LaunchScreen.storyboard */,
 				B8D0F3C21D7CB638004C6E89 /* Info.plist */,
@@ -153,9 +156,11 @@
 				TargetAttributes = {
 					B8D0F3B21D7CB638004C6E89 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 					};
 					B8D0F3C61D7CB638004C6E89 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = B8D0F3B21D7CB638004C6E89;
 					};
 				};
@@ -208,6 +213,7 @@
 				B8D0F3B91D7CB638004C6E89 /* ViewController.swift in Sources */,
 				B8D0F3D71D7FC08B004C6E89 /* RatingControl.swift in Sources */,
 				B8D0F3B71D7CB638004C6E89 /* AppDelegate.swift in Sources */,
+				B833A3791D977BAD0099A4E4 /* MealTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +349,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.FoodTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -354,6 +361,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.FoodTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -365,6 +373,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.FoodTrackerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodTracker.app/FoodTracker";
 			};
 			name = Debug;
@@ -377,6 +386,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.FoodTrackerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodTracker.app/FoodTracker";
 			};
 			name = Release;
