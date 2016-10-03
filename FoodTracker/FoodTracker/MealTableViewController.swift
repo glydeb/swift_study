@@ -34,7 +34,7 @@ class MealTableViewController: UITableViewController {
         let meal3 = Meal(name: "Pasta with Meatballs", photo: photo3, rating: 3)!
         
         let photo4 = UIImage(named: "myMeal")!
-        let meal4 = Meal(name: "Porterhouse Steak with Sautéed Zucchini", photo: photo4, rating: 5)!
+        let meal4 = Meal(name: "Porterhouse Steak with Zucchini", photo: photo4, rating: 5)!
         
         meals += [meal1, meal2, meal3, meal4]
         
@@ -60,13 +60,15 @@ class MealTableViewController: UITableViewController {
         // Table view cells are reused and should be dequeued using a cell identifier
         let cellIdentifier = "MealTableViewCell"
         
-        let cell = tableView.dequeueReusableCellWithIdentifier(cellIdentifier, forIndexPath: indexPath) as! "MealTableViewCell"
+        let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as! MealTableViewCell
         
         // Fetches the appropriate meal for the data source layout
         let meal = meals[indexPath.row]
 
-        // Configure the cell...
-
+        cell.nameLabel.text = meal.name
+        cell.photoImageView.image = meal.photo
+        cell.ratingControl.rating = meal.rating
+        
         return cell
     }
 
