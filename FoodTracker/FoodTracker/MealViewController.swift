@@ -16,6 +16,13 @@ class MealViewController: UIViewController, UITextFieldDelegate,
     @IBOutlet weak var photoImageView: UIImageView!
     @IBOutlet weak var ratingControl: RatingControl!
     
+    /* 
+        This property is either passed by 'MealTableViewController'	in
+        in 'prepareForSegue(_:sender:)' or
+        constructed as part of adding a new meal
+    */
+    var meal: Meal?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         

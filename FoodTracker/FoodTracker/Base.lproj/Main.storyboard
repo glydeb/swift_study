@@ -78,8 +78,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="center" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="Zt8-UG-NPA">
-                                <frame key="frameInset" minX="20" minY="80" width="343" height="418"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="Zt8-UG-NPA">
                                 <subviews>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" placeholderIntrinsicWidth="560" placeholderIntrinsicHeight="30" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter meal name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8Dj-Hq-ifu">
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -106,9 +105,9 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="Zt8-UG-NPA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Bdj-LT-879"/>
-                            <constraint firstItem="Zt8-UG-NPA" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="60" id="Jty-Ai-INR"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Zt8-UG-NPA" secondAttribute="trailing" id="S59-zG-P8Z"/>
+                            <constraint firstItem="Zt8-UG-NPA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="4" id="Bdj-LT-879"/>
+                            <constraint firstItem="Zt8-UG-NPA" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="16" id="Jty-Ai-INR"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Zt8-UG-NPA" secondAttribute="trailing" constant="-4" id="S59-zG-P8Z"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="New Meal" id="rTH-Vf-I9s">
