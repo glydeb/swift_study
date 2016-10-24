@@ -111,13 +111,14 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="New Meal" id="rTH-Vf-I9s">
-                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="WUK-OG-1Yd"/>
-                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="2TJ-PL-XxJ"/>
+                        <barButtonItem key="leftBarButtonItem" title="Cancel" id="WUK-OG-1Yd"/>
+                        <barButtonItem key="rightBarButtonItem" title="Save" id="2TJ-PL-XxJ"/>
                     </navigationItem>
                     <connections>
                         <outlet property="nameTextField" destination="8Dj-Hq-ifu" id="YeO-zr-utA"/>
                         <outlet property="photoImageView" destination="qGa-ug-D6p" id="B4v-H6-Tkh"/>
                         <outlet property="ratingControl" destination="71o-0p-RQb" id="K8i-a0-W3w"/>
+                        <outlet property="saveButton" destination="2TJ-PL-XxJ" id="WHc-rV-xAo"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
